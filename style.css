@@ -1,0 +1,13 @@
+p {
+    color: pink;
+}
+
+p:after {
+    content: ' \27B7';
+    color: blue;
+    font-weight:bold;
+}
+
+.content {
+    color: orange;
+}
