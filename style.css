@@ -1,0 +1,35 @@
+header {
+		width: 90%;
+		height: 40px;
+		border: 10px red solid;
+		text-align: center;
+}
+
+ul {
+	width: 90%;
+	height: 20px;
+	display: flex;
+	float: center;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+
+a {text-decoration:none; 
+}
+
+li {color: red;
+	display: inline;
+	float: center;
+
+}
+
+	
+		body {
+ background: #ADD8E6;
+}
+
+div {
+	border: 5px red solid
+}
+
