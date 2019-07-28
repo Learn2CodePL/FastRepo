@@ -16,21 +16,25 @@
                 width:20%;
                 text-align: center;
             }
-            #content {
-                display:inline-block;
-
+            footer {
+                clear:both;
+            }
+            article {
+                float:left;
                 width:70%;
             }
-            #sidemenu {
-                display:inline-block;
-
-                width:25%;
+            aside {
+                width:20%;
+                float:left;
             }
             #p1 {
                font-size:14px;
             }
             #p2 {
                 font-size:20px;
+            }
+            .wyroznienie {
+                color:pink;
             }
         </style>
     </head>
@@ -42,12 +46,15 @@
                 <li>MENU3</li>
             </ul>
         </header>
-        <div id="content">
-            <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div id="sidemenu">
-            <img src=obrazek.PNG>
+        <div id="main">
+            <article id="content">
+                <p id="p1">Lorem ipsum dolor sit amet, consectetur <b>adipiscing elit</b>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p id="p2">Lorem ipsum dolor sit amet, consectetur <span class="wyroznienie">incididunt ut labore et dolore magna aliqua</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p id="p3">Lorem ipsum dolor sit amet, consectetur <span class="wyroznienie">incididunt ut labore et dolore magna aliqua</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </article>
+            <aside id="sidemenu">
+                <img src=obrazek.PNG>
+            </aside>
         </div>
         <footer>
             <p>FOOTER</p>
