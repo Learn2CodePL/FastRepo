@@ -3,9 +3,13 @@ p {
 }
 
 p:after {
-    content: ' \27B7';
+    content: ' \2728';
     color: blue;
     font-weight:bold;
+}
+
+span.pln:after {
+    content: " \2728";
 }
 
 .content {
