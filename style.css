@@ -1,0 +1,86 @@
+
+header h1{
+
+    background-color: antiquewhite;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    margin = 0px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    
+} 
+header {
+    padding-left: 0px;
+    text-transform: uppercase;
+    margin = 0px;
+    background-color: antiquewhite;
+    
+}
+
+.nawigacja ul {
+    background-color: antiquewhite;
+    margin = 0px;
+}
+
+.nawigacja li {
+    
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background-color: antiquewhite;
+    align-items: center;
+    padding-bottom: 8px;
+    font-family: monospace;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.klasa { 
+    
+    color: black;
+    display: inline-flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between
+        
+    
+    }
+
+.czglowna {
+    
+    height: 300px;
+    width: 100%;
+    border: solid 1px #ff6781;
+}
+
+.czglowna h1 {
+    
+    text-transform: uppercase;
+    border: none;
+    font-size: 17px;
+}
+
+.czglowna p {
+    
+    border-bottom: 2px  ;
+    font-size: 14px;
+}
+
+
+.pboczny {
+     
+   height: 300px;
+   border: solid 1px #ff6781;
+
+    
+}
+
+
+
+.stopka {
+    text-align: center;
+    border: solid 1px #ff6781;
+    padding: 10px;
+    
+}
