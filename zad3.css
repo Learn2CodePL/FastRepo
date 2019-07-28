@@ -1,0 +1,23 @@
+p {
+    color:red;
+}
+
+p#drugi {
+    background: aqua;
+}
+
+p.ads-desc {
+    background: gray;
+}
+
+header > p {
+    font-size: 10px;
+}
+
+article#last p {
+    display:none;
+}
+
+header nav ul li{
+    display: inline;
+}

@@ -66,7 +66,6 @@ footer {
 }
 
 div#content p {
-    color:hotpink;
     text-align: center;
 
 }
@@ -80,15 +79,22 @@ div#sidePannel p {
 p#pierwszyParagraf{
     border-color: pink;
     border-style:solid;
-    border-color: pink;
-
-
+    color: greenyellow;
 }
 
 p#drugiParagraf {
     background: black;
     border-style:solid;
     border-color: pink;
+    color: hotpink;
     
-    
+}
+
+i {
+    color: cyan;
+}
+
+span {
+    font-size: 20px;
+    color: greenyellow;
 }
