@@ -1,0 +1,52 @@
+.tlo {
+    background-color: lightgray;
+}
+
+.naglowek {
+    margin: 0px 50px;
+    background-color: #00CC00;
+    color: white;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    
+}
+
+.paragraf {
+    margin: 0px 50px;
+    color: black;
+    font-family: sans-serif;
+    height: 550px;
+    padding: 0px 35px;
+    text-align: center;
+    background: linear-gradient(to bottom, dodgerblue, white);
+}
+.paragraf h1 {
+        margin: 0px;
+        padding: 30px 0px 20px 0px;
+        font-size: 28px;
+        text-align: justify;
+    }  
+.paragraf p {
+        margin: none;
+        text-align: left;
+        padding: 0px 0px 40px 0px ;
+}
+    
+.paragraf button {
+    border-radius: 5px;
+    padding: 15px 18px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #00CC00;
+    
+    
+}
+

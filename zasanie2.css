@@ -1,0 +1,24 @@
+#naglowek {
+    color: brown;
+    border-bottom: 1px solid black;
+}
+
+.menu {
+    font-weight: 300;
+    color: green;    
+}
+
+.sekcja {
+    font-family: monospace;
+    color: darkblue;
+    font-size: 15px;    
+}
+
+.drugiparagraf {
+    color: black;   
+}
+
+.wyroznienie { 
+    font-weight: 700;
+    color: dodgerblue;
+}

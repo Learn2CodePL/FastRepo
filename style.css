@@ -49,7 +49,7 @@ header {
 
 .czglowna {
     
-    height: 300px;
+    height: 277px;
     width: 100%;
     border: solid 1px #ff6781;
 }
@@ -70,7 +70,7 @@ header {
 
 .pboczny {
      
-   height: 300px;
+   height: auto;
    border: solid 1px #ff6781;
 
     
@@ -83,4 +83,10 @@ header {
     border: solid 1px #ff6781;
     padding: 10px;
     
+}
+
+.bolder {
+    font-size: 16px;
+    font-weight: 800;
+    color: purple;
 }
