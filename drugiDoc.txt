@@ -1,7 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <title></title>
+<style>
+h1{color: "pink"
+}
+p.adsContainer{color: "blue"
+}
+
+p.adsContainer:nthChild{color: "blue"
+}
+
+</style>
   </head>
   <body>
     <h1>Naglowek 1</h1>
