@@ -1,0 +1,58 @@
+body {
+    background: lightgray;
+}
+
+div#header {
+    background: blue;
+    width: 60%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+div#header h1 {
+    color: white;
+    margin: 0
+}
+
+div#content {
+    position: relative;
+    width:58%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+    background: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+}
+
+div#content p {
+   
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#content #welcome {
+    font-size: 50px;
+    font-weight: bold;
+}
+div#content #przycisk {
+    font-size: 35px;
+    font-weight: bold;
+    width: 30%;
+    position:absolute;
+    margin-left: 35%;
+    color: white;
+    background: green;
+    border-radius: 8px;
+}
+
+footer {
+    background: black;
+    color: white;
+}
